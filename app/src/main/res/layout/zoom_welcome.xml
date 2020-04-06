@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <AutoCompleteTextView
+            android:layout_width="@dimen/zm_btn_width_160dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/idDisplayName"
+            android:hint="@string/display_name"
+            android:imeOptions="actionNext"
+            android:nextFocusDown="@id/idMeeting"
+            android:completionThreshold="1">
+
+        </AutoCompleteTextView>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+    <AutoCompleteTextView
+        android:layout_width="@dimen/zm_btn_width_160dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/idMeeting"
+        android:hint="@string/id"
+        android:imeOptions="actionNext"
+        android:nextFocusDown="@id/joinMeeting"
+        android:completionThreshold="1">
+
+    </AutoCompleteTextView>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:layout_width="@dimen/zm_btn_width_160dp"
+        android:layout_height="@dimen/zm_btn_width_48dp"
+        android:id="@+id/joinMeeting"
+        android:layout_gravity="center"
+        android:text="@string/join">
+
+    </Button>
+
+
+</LinearLayout>

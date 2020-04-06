@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Zoom for Habr</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+
+    <string name="display_name">Display name</string>
+    <string name="id">ID</string>
+    <string name="join">Join</string>
+</resources>
